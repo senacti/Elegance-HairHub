@@ -4,11 +4,11 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VentasController;
 use App\Http\Controllers\InventarioController;
 use App\Http\Controllers\AgendamientoDeCitaController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',
+[HomeController::class,'index'])->name('home');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
