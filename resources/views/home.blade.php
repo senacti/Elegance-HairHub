@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegance HairHub</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -61,12 +62,12 @@
 
     <!-- Encabezado con el logo y menú de navegación -->
     <header>
-        <img src="ruta-a-tu-logo.png" alt="Elegance HairHub Logo">
+        <img src="img/logo.png">
         <nav>
-            <a href="#servicios">Servicios</a>
-            <a href="#productos">Productos</a>
-            <a href="#agendamiento">Agendar Cita</a>
-            <a href="#carrito">
+            <a href="servicios">Servicios</a>
+            <a href="productos">Productos</a>
+            <a href="agendamiento">Agenda tu Cita</a>
+            <a href="carrito">
                 <i class="fas fa-shopping-cart"></i>
                 <span>Carrito</span>
             </a>
@@ -75,22 +76,6 @@
 
     <!-- Imagen principal o banner -->
     <div class="banner"></div>
-
-    <!-- Menú inferior (para dispositivos móviles o navegación rápida) -->
-    <div class="bottom-menu">
-        <a href="#shop">
-            <i class="fas fa-store"></i>
-            <span>Shop</span>
-        </a>
-        <a href="#mi-cuenta">
-            <i class="fas fa-user"></i>
-            <span>Mi Cuenta</span>
-        </a>
-        <a href="#carrito">
-            <i class="fas fa-shopping-cart"></i>
-            <span>Carrito</span>
-        </a>
-    </div>
 
 </body>
 </html>
