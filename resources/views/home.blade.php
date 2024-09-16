@@ -64,6 +64,7 @@
     <header>
         <img src="img/logo.png">
         <nav>
+            <a href="inicio">inicio</a> 
             <a href="servicios">Servicios</a>
             <a href="productos">Productos</a>
             <a href="agendamiento">Agenda tu Cita</a>
